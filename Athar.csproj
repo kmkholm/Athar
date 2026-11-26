@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Athar</AssemblyName>
+    <RootNamespace>Athar</RootNamespace>
+    <Version>1.0.0</Version>
+    <Product>Athar</Product>
+    <ApplicationIcon>Athar.ico</ApplicationIcon>
+    <Company>Dr. Mohammed Tawfik</Company>
+    <Copyright>Copyright (c) 2026 Dr. Mohammed Tawfik - MIT License</Copyright>
+    <Description>Athar - blockchain transaction tracing workbench (address profiling, fund-flow tracing, link analysis, timing/amount matching, cases and reports)</Description>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <NoWarn>CS8321;CS0168;CA1416;CS1998;CS4014</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Athar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Anthropic" Version="13.14.0" />
+  </ItemGroup>
+</Project>

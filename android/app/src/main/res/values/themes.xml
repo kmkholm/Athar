@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أثر Athar</string>
+    <style name="Theme.Athar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">#1565C0</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+    <color name="bg">#F4F6F8</color>
+    <color name="launcher_bg">#1565C0</color>
+</resources>
